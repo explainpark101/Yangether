@@ -218,7 +218,7 @@ border-radius: 0px 0px 15px 15px;
 	cursor: text
 }
 #board-info #viewers-area #viewers:before {
-    content: "트레쉬 ";
+    content: "";
     cursor: text;
 }
 #board-info #viewers-area #viewers:after {
