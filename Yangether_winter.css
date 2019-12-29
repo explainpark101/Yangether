@@ -1,5 +1,14 @@
 /* 원본 CSS
 @import url("https://dandegimon.github.io/yanggether/yanggether_desktop.css");
+
+	
+@font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+*/
+
+/* 적용용 CSS
+@import url("https://github.com/explainpark101/Yangether/blob/master/Yangether_winter.css");
+
+@font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 */
 
 
@@ -29,6 +38,96 @@ header .row>div:nth-child(1)>a {
   background: url(https://cdn.discordapp.com/attachments/569194281219129364/660489766130679828/logo_winter.png) no-repeat;
   position: relative;
   top: 10px;
+
+/* 양게더 로고 애니메이션 */
+  -webkit-animation: bounceInTop 4s;
+
+animation: bounceInTop 4s;
+
+
+
+-webkit-animation-iteration-count: infinite;
+
+animation-iteration-count: infinite;
+
+
+
+-webkit-animation-timing-function:ease-in-out;
+
+animation-timing-function:ease-in-out;
+
+}
+
+
+
+@-webkit-keyframes bounceInTop {
+
+0% {
+
+-webkit-transform: rotate(2deg);
+
+}
+
+25% {
+
+-webkit-transform: rotate(-2deg);
+
+}
+
+50% {
+
+-webkit-transform: rotate(2deg);
+
+}
+
+75% {
+
+-webkit-transform: rotate(-2deg);
+
+}
+
+100% {
+
+-webkit-transform: rotate(2deg);
+
+}
+
+}
+
+
+
+@keyframes bounceInTop {
+
+0% {
+
+transform: rotate(2deg);
+
+}
+
+25% {
+
+transform: rotate(-2deg);
+
+}
+
+50% {
+
+transform: rotate(2deg);
+
+}
+
+75% {
+
+transform: rotate(-2deg);
+
+}
+
+100% {
+
+transform: rotate(2deg);
+
+}
+
 }
 header .row>div:nth-child(1)>a img {
 display: none; /*기본 로고 숨김*/
@@ -111,13 +210,18 @@ border-radius: 0px 0px 15px 15px;
 	color: rgba(117,113,94,0.8);
 }
 #board-info #viewers-area .fa-user:before{
-    content: url(https://static-cdn.jtvnw.net/badges/v1/899a775f-91cf-4112-907b-b44bfb84725c/1);
+    content: url('https://static-cdn.jtvnw.net/badges/v1/899a775f-91cf-4112-907b-b44bfb84725c/1');
     font-size: 16px;
 	position: relative;
 	top: 5px;
+	cursor: text
+}
+#board-info #viewers-area #viewers:before {
+    content: "트레쉬 ";
+    cursor: text;
 }
 #board-info #viewers-area #viewers:after {
-    content: "명 수감 중!";
+    content: "명 수감중!";
     cursor: text;
 }
 /*즐찾,소개,채널,클립*/
