@@ -34,10 +34,18 @@ background-image: url('https://cdn.discordapp.com/attachments/569194281219129364
 
 header .row>div:nth-child(1)>a {
   display: block;
-  height: 50px;
+  /* height: 50px; */
   background: url(https://cdn.discordapp.com/attachments/569194281219129364/660489766130679828/logo_winter.png) no-repeat;
   position: relative;
   top: 10px;
+/* test */
+background-size: 188px 90px;
+
+width: 188px;
+
+height: 90px;
+
+margin-left: -55px;
 
 /* 양게더 로고 애니메이션 */
   -webkit-animation: bounceInTop 4s;
@@ -70,7 +78,7 @@ animation-timing-function:ease-in-out;
 
 25% {
 
--webkit-transform: rotate(-4deg);
+-webkit-transform: rotate(-2deg);
 
 }
 
@@ -82,7 +90,7 @@ animation-timing-function:ease-in-out;
 
 75% {
 
--webkit-transform: rotate(-4deg);
+-webkit-transform: rotate(-2deg);
 
 }
 
@@ -106,7 +114,7 @@ transform: rotate(2deg);
 
 25% {
 
-transform: rotate(-4deg);
+transform: rotate(-2deg);
 
 }
 
@@ -118,7 +126,7 @@ transform: rotate(2deg);
 
 75% {
 
-transform: rotate(-4deg);
+transform: rotate(-2deg);
 
 }
 
