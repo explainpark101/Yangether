@@ -117,7 +117,7 @@ border-radius: 0px 0px 15px 15px;
 	top: 5px;
 }
 #board-info #viewers-area #viewers:after {
-    content: " 명 잡았다!";
+    content: " 명 수감 중!";
     cursor: text;
 }
 /*즐찾,소개,채널,클립*/
