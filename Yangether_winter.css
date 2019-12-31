@@ -14,7 +14,9 @@
 
 /*내용 */
 @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
-	
+
+var randomColor = Math.floor(Math.random()*16777215).toString(16);
+
 html, body, table, div, p {
 font-family: 'Dovemayo-Bold';}
 
@@ -136,8 +138,8 @@ display: none; /*기본 로고 숨김*/
 
 /* 로고밑 NAV bar */
 header #header-bar>.row {
-    border: 3px solid #feafbc !important;
-	background-color: #feafbc;
+    border: 3px solid #53beff !important;
+	background-color: #53beff;
     border-radius: 20px;
 }
 
@@ -153,13 +155,13 @@ header #right-search-form>#right-search-btn {
 /* 유저 프로필 이미지 원형화 */
 header #header-bar #header-menu-right #userDropdown img.profile-img {
     border-radius: 50%;
-    border: 2px dashed #fe546e;
+    border: 2px dashed #0ca6ff;
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 #main .menu-wrapper>.header {
-    background: #feafbc;
-    border: 3px solid #feafbc !important;
+    background: #53beff;
+    border: 3px solid #53beff !important;
     border-radius: 10px 10px 0 0;
 }
 #main .menu-wrapper a:nth-last-child(1) {
@@ -225,6 +227,21 @@ border-radius: 0px 0px 15px 15px;
     content: "명 수감중!";
     cursor: text;
 }
+
+/* 스트리머 이름 호버 색상 변경 */ 
+#board-info h1>a:hover,
+#board-info h1>a:focus {
+	color: var(--randomColor);
+	transition: 0.2s;
+}
+
+/* board-info 버튼 호버 이펙트 */
+#board-info>#board-info-bottom>:hover {
+    transform: scale(1.05);
+    color: black;
+    text-decoration: underline; 
+}
+
 /*즐찾,소개,채널,클립*/
 #board-info #board-info-bottom{
 	padding-top: 6px;
@@ -232,6 +249,69 @@ border-radius: 0px 0px 15px 15px;
 #board-info #board-info-bottom a{
 	color: #75715e;
 }
+/* 카테고리 색상 변화 */
+
+    #article-list #article-list-category {
+
+        background: transparent;
+
+        border: none;
+
+        margin-top: 2px;
+
+        margin-bottom: 2px;
+
+    }
+
+    #article-list #article-list-category>a {
+
+        background: transparent;
+
+        position: relative;
+
+        padding: 9px 15.7px; /* 카테고리 선택자 사이 여백 조정 */
+    }
+
+    #article-list #article-list-category>a::before {
+
+        top: 0;
+
+    }
+
+    #article-list #article-list-category>a::after {
+
+        bottom: 0;
+
+    }
+
+#article-list #article-list-category>a::before, #article-list #article-list-category>a::after {
+
+        height: 2px;
+
+        width: 100%;
+
+        background: currentColor;
+
+        content: "";
+
+        position: absolute;
+
+        left: 0px;
+
+        transform: scaleX(0);
+
+        transition: 0.3s;
+
+    }
+
+    #article-list #article-list-category>a:hover::before,
+
+    #article-list #article-list-category>a:hover::after {
+
+        transform: scaleX(1);
+
+    }
+
 /*메인메뉴*/
 #article-list{
 	padding:0 1em 2em;
@@ -309,8 +389,8 @@ span.a-badge i.fa.fa-star{
 
 /* 글 안*/
 #article-content-wrapper>.header{
-	border-top: #ff6a70;
-	background: #fffae5;
+	border-top: #63b6ff;
+	background: #ddfffb;
 }
 #article-reply-area > .header h5{
 	color: #75715e;
@@ -324,8 +404,8 @@ color: #d3ceb8;
 background: #fff;
 }
 .pull-right{
-	background-color: #ff6a70;
-	border-color: #ff6a70;
+	background-color: #15baff;
+	border-color: #15baff;
 	border-radius: 10px;
 }
 /*글쓰기 라디오스*/
@@ -334,7 +414,7 @@ border-radius: 10px;
 }
 /*윗글아랫글 색상*/
 #article-neighbor-list{
-color: #ff6a70;
+color: #08b6ff;
 }
 
 #article-list #article-list-menu>.btn.best{
@@ -348,21 +428,39 @@ color: #ff6a70;
 .pagination>li>a, .pagination>li>span, .pagination>li>a, .pagination>li>span:hover{
 	color: #75715e;
 }
+
+/* 글쓰기 버튼 색상 */
 #article-list #article-list-menu>.btn.write{
 	background-color: #15baff;
 	border-color: #15baff;
 	border-radius: 10px;
 }
+
+#article-list #article-list-menu>.btn.write:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
 #article-list #article-list-menu>.btn.cog{
 border-radius: 10px;
 }
+
 #article-list #article-list-menu>.btn.del{
 border-radius: 10px;
 }
 
+/* 인기글 버튼 색상 */
+#article-list #article-list-menu>.btn.best:hover {
+    border-radius: 10px;
+    background-color: #efc839;
+    color:#fff; 
+    border-color: #efc839;
+}
+
 /* footer */
 footer,a{
- color: #a6a291;
+ color: #0e1a3f;
 }
 #article-list>.article-list-row {
   border-right: none;
