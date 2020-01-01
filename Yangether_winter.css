@@ -143,8 +143,8 @@ display: none; /*기본 로고 숨김*/
 
 /* 로고밑 NAV bar */
 header #header-bar>.row {
-    border: 3px solid #f7a8f7 !important;
-  background-color: #f7a8f7;
+    border: 3px solid #f769f7 !important;
+  background-color: #f769f7;
     border-radius: 20px;
 }
 
@@ -165,8 +165,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 #main .menu-wrapper>.header {
-    background: #f7a8f7;
-    border: 3px solid #f7a8f7 !important;
+    background: #f769f7;
+    border: 3px solid #f769f7 !important;
     border-radius: 10px 10px 0 0;
 }
 #main .menu-wrapper a:nth-last-child(1) {
