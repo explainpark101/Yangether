@@ -10,7 +10,10 @@
 
 @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 */
-
+/*광고 제거
+element.style {
+    display: none;
+} */
 
 /*내용 */
 @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
@@ -19,15 +22,6 @@ html, body, table, div, p {
 font-family: 'Dovemayo-Bold';}
 
 var randomColor = Math.floor(Math.random()*16777215).toString(16);
-
-/*광고*/
-/* 
-header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
-header #header-bar #header-top-notice strong.notice-badge{display:none;}
-element.style {
-    display: none;
-}
-*/
 
 html, body{
  background: linear-gradient(#CCCCFF,#9999FF);
@@ -320,6 +314,10 @@ border-radius: 0px 0px 15px 15px;
         transform: scaleX(1);
 
     }
+/*광고*/
+
+header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
+header #header-bar #header-top-notice strong.notice-badge{display:none;}
 
 /*메인메뉴*/
 #article-list{
