@@ -341,7 +341,7 @@ border-radius: 0px 0px 15px 15px;
 #article-list>.article-list-row :before, #article-list>.article-list-row:after {
         height: 2px;
         width: 100%;
-        background: red;
+        background: #d44181;
         content: "";
         position: absolute;
         left: 0px;
