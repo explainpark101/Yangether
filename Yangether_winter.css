@@ -21,8 +21,6 @@ element.style {
 html, body, table, div, p {
 font-family: 'Dovemayo-Bold';}
 
-var randomColor = Math.floor(Math.random()*16777215).toString(16);
-
 html, body{
  background: linear-gradient(#CCCCFF,#9999FF);
  height: auto;
@@ -234,7 +232,7 @@ border-radius: 0px 0px 15px 15px;
 /* 스트리머 이름 호버 색상 변경 */ 
 #board-info h1>a:hover,
 #board-info h1>a:focus {
-	color: var(--randomColor);
+	color: black;
 	transition: 0.2s;
 }
 
