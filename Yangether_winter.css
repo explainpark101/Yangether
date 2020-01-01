@@ -23,13 +23,10 @@ var randomColor = Math.floor(Math.random()*16777215).toString(16);
 }
 
 /*광고*/
-/* 
+
 header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
 header #header-bar #header-top-notice strong.notice-badge{display:none;}
-element.style {
-    display: none;
-}
-*/
+
 
 html, body{
  background: linear-gradient(#CCCCFF,#9999FF);
