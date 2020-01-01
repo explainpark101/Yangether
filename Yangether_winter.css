@@ -36,7 +36,7 @@ html, body{
 body {
   background: transparent;
   height: auto;
-background-image: url('https://cdn.discordapp.com/attachments/569194281219129364/660851445876391946/snow1.png'),url('https://cdn.discordapp.com/attachments/569194281219129364/660497885892444201/snow2.png'),url('https://cdn.discordapp.com/attachments/569194281219129364/660498761964847105/snow3.png');
+background-image: url('https://explainpark101.github.io/Yangether/snow1.png'),url('https://explainpark101.github.io/Yangether/snow2.png'),url('https://explainpark101.github.io/Yangether/snow3.png');
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
     -ms-animation: snow 10s linear infinite;
