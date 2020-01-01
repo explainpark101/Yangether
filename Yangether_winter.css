@@ -18,7 +18,9 @@
 html, body, table, div, p {
 font-family: 'Dovemayo-Bold';}
 
+:root {
 var randomColor = Math.floor(Math.random()*16777215).toString(16);
+}
 
 /*광고*/
 /* 
@@ -147,8 +149,8 @@ display: none; /*기본 로고 숨김*/
 
 /* 로고밑 NAV bar */
 header #header-bar>.row {
-    border: 3px solid #d300d3 !important;
-	background-color: #d300d3;
+    border: 3px solid #f7a8f7 !important;
+	background-color: #f7a8f7;
     border-radius: 20px;
 }
 
@@ -169,8 +171,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 #main .menu-wrapper>.header {
-    background: #d300d3;
-    border: 3px solid #d300d3 !important;
+    background: #f7a8f7;
+    border: 3px solid #f7a8f7 !important;
     border-radius: 10px 10px 0 0;
 }
 #main .menu-wrapper a:nth-last-child(1) {
