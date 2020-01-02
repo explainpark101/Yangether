@@ -1,13 +1,11 @@
 /* 원본 CSS
 @import url("https://dandegimon.github.io/yanggether/yanggether_desktop.css");
-
   
 @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 */
 
 /* 적용용 CSS
 @import url("https://explainpark101.github.io/Yangether/Yangether_winter.css");
-
 @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 */
 
@@ -143,8 +141,8 @@ display: none; /*기본 로고 숨김*/
 
 /* 로고밑 NAV bar */
 header #header-bar>.row {
-    border: 3px solid #f769f7 !important;
-  background-color: #f769f7;
+    border: 3px solid #8080ff !important;
+  background-color: #8080ff;
     border-radius: 20px;
 }
 
@@ -165,8 +163,8 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 #main .menu-wrapper>.header {
-    background: #f769f7;
-    border: 3px solid #f769f7 !important;
+    background: #8080ff;
+    border: 3px solid #8080ff !important;
     border-radius: 10px 10px 0 0;
 }
 #main .menu-wrapper a:nth-last-child(1) {
@@ -341,7 +339,7 @@ border-radius: 0px 0px 15px 15px;
 #article-list>.article-list-row :before, #article-list>.article-list-row:after {
         height: 2px;
         width: 100%;
-        background: #d44181;
+        background: #6fbaff;
         content: "";
         position: absolute;
         left: 0px;
