@@ -158,7 +158,13 @@ header #right-search-form>#right-search-btn {
 /* 유저 프로필 이미지 원형화 */
 header #header-bar #header-menu-right #userDropdown img.profile-img {
     border-radius: 50%;
-    border: 2px dashed #b200b2;
+    border: 2px dashed #00ffff;
+}
+
+/* 알림 뱃지 색상 */
+header #header-bar #header-menu-right #userDropdown #notification-badge{
+  background: #00d0d0;
+  color:black;
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
@@ -167,6 +173,12 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
     border: 3px solid #8080ff !important;
     border-radius: 10px 10px 0 0;
 }
+
+/* 아래 빈 줄 삭제 */
+element.style {
+    display: none;
+}
+
 #main .menu-wrapper a:nth-last-child(1) {
 border-radius: 0px 0px 15px 15px;
 }
