@@ -87,7 +87,7 @@
 
         /*본문*/
         #article-list>.article-list-row{
-            background: none;
+            background: rgba(255,250,229,0.4);
 
         }
         /*공지사항*/
