@@ -135,7 +135,6 @@
 
         /*기본글*/
         #article-list>.article-list-row{
-            background : rgba(255,250,229,0.4);
             border: none;
         }
         #article-list>.article-list-row>.item>.list-title>.list-category{
@@ -172,9 +171,13 @@
             color: white;
         }
         /*밑바탕*/
-        .pagination-area, #article-list-menu{
+        .pagination-area, {
             background-color: transparent;
         }
+        #article-list-menu{
+                background: rgba(255,250,229,0.4);
+                }
+
         footer{
             background: none;
         }
