@@ -361,7 +361,9 @@ border-radius: 0px 0px 15px 15px;
         transform: scaleX(1);
     } 
 
-
+#article-list>.article-list-row>.item>a.list-title:visited /*읽은 글 색상 변화 */{
+    color: purple !important;
+}
 
 /*공지사항*/
 #article-list>.article-list-row.notice{
