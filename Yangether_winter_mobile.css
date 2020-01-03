@@ -92,7 +92,7 @@
         }
         /*공지사항*/
         #article-list>.article-list-row.notice{
-            background-color: rgba(255,250,229,0.4);
+            background-color: transparent;
             border-radius: 10px;
             margin-bottom: 2px;
         }
@@ -104,7 +104,7 @@
         }
         /*인기글*/
         #article-list>.article-list-row.hot{
-            background-color: rgba(255,250,229,0.4);
+            background-color: transparent;
             border-radius: 10px;
         }
         span.a-badge i.fa.fa-star{
@@ -135,6 +135,7 @@
 
         /*기본글*/
         #article-list>.article-list-row{
+            background : rgba(255,250,229,0.4);
             border: none;
         }
         #article-list>.article-list-row>.item>.list-title>.list-category{
