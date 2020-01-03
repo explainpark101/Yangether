@@ -1,0 +1,333 @@
+        @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+            
+        html, body, table, div, p {
+        font-family: 'Dovemayo-Bold';}
+            
+        html, body {
+            background: linear-gradient(#CCCCFF,#9999FF);
+            height: auto;
+        }
+        header{
+            background: #ccccff;
+            border-bottom: 4px solid #bbbbee;
+        }
+        header>#header-area>a>h1{
+            background:url(https://cdn.discordapp.com/attachments/569194281219129364/660489766130679828/logo_winter.png) no-repeat;
+            background-size: auto 32px;
+            background-repeat: no-repeat;
+            height: unset !important;
+        }
+
+        .fa-reorder, .fa-bars {
+            color:black;
+        }
+        .fa-search{
+            color: black;
+        }
+        #header-top-notice{
+            background: #ccccff;
+            border-top: 2px solid #bbbbee;
+        }
+        #header-top-notice strong.notice-badge{
+            display:none;
+        }
+        #board-info{
+            background: #9999ff;
+            border-top:2px solid cyan;
+            border-bottom:1px solid #444;
+        }
+        #board-info>h1>a{
+            color: black;
+        }
+        #board-info #viewers-area{
+            color: rgba(117,113,94,0.8);
+        }
+        #board-info #viewers-area .fa-user:before{
+            content: url(https://static-cdn.jtvnw.net/badges/v1/899a775f-91cf-4112-907b-b44bfb84725c/1);
+            font-size: 16px;
+            position: relative;
+            top: 5px;
+        }
+        #board-info #viewers-area #viewers:after {
+            content: " 명 수감중!";
+            cursor: text;
+
+        }
+        #board-info #viewers-area {
+    color: black;
+}
+        #board-info>a.board-right-menu{
+            border-left: 2px solid #d3ceb8;
+            color: #75715e;
+        }
+
+        #board-info #score-area {
+            color:black;
+        }
+        .fa-trophy {
+            color: #447070; 
+        }
+
+        .fa-star:before {
+            color:white;
+        }
+
+        /*카테고리*/
+        .fa-home{
+            color: #000;
+        }
+        #article-list #article-list-category{
+            background: #9999ff;
+            border-bottom:2px solid cyan;
+        }
+        #article-list #article-list-category>a{
+            background: #9999ff !important;
+        }
+        #article-list #article-option-area>#article-option-area-toggle-btn{
+            background: none;
+        }
+
+        /*본문*/
+        #article-list>.article-list-row{
+            background: none;
+
+        }
+        /*공지사항*/
+        #article-list>.article-list-row.notice{
+            background-color: rgba(255,250,229,0.4);
+            border-radius: 10px;
+            margin-bottom: 2px;
+        }
+        #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time{
+        border-bottom:none;
+        }
+        span.a-badge i.fa.fa-info-circle{
+            color: #d3ceb8;
+        }
+        /*인기글*/
+        #article-list>.article-list-row.hot{
+            background-color: rgba(255,250,229,0.4);
+            border-radius: 10px;
+        }
+        span.a-badge i.fa.fa-star{
+            color: white;
+            animation: animationFrames ease-in-out 2s infinite;
+          -webkit-animation: animationFrames ease-in-out 2s infinite;
+          -moz-animation: animationFrames ease-in-out 2s infinite;
+          -o-animation: animationFrames ease-in-out 2s infinite;
+          -ms-animation: animationFrames ease-in-out 2s infinite;
+        }
+        .fa-heart:before {
+             content: url(https://dandegimon.github.io/yanggether/images/heart.gif);
+            position: relative;
+            top: -2px;
+            display: inline-block;
+        }
+
+        #article-list #article-list-menu>.btn.best { /*인기글 버튼 기본 */
+            background: white;
+            border-radius: 10px;
+        }
+
+        #article-list-menu>.btn.best.enable {
+            color: #fff;
+            background: #efc839 !important;
+            border-color: #efc839;
+        }
+
+        /*기본글*/
+        #article-list>.article-list-row{
+            border: none;
+        }
+        #article-list>.article-list-row>.item>.list-title>.list-category{
+            border: none;
+        }
+        #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
+            color: #75715e;
+        }
+        #article-list>.article-list-row>.item>.list-header>span{
+            background-color: cyan;
+            color:black;
+            padding: 3px 5px 3px 5px;
+            border-radius: 50%;
+        }
+        #article-list #article-list-category>a {
+    text-shadow:1px 1px 5px black;
+}
+        #article-list>.article-list-row>.item>.list-header.v0>span{
+            background: none;
+        }
+        #article-list>.article-list-row>.item>a.list-title>small.comment-count{
+            color: white;
+        }
+        #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span{
+            color: #75715e;
+        }
+
+        #article-list>.article-list-row>.item>a.list-title:visited /*읽은 글 색상 변화 */{
+            color: purple !important;
+        }
+
+        .fa-commenting-o:before /* 게시글 아이콘 색상 변경 */{
+            content: "\f27b";
+            color: white;
+        }
+        /*밑바탕*/
+        .pagination-area, #article-list-menu{
+            background-color: transparent;
+        }
+        footer{
+            background: none;
+        }
+        /* 글 안*/
+        #article-content-wrapper>.header{
+            border-top: #ff6a70;
+            background: #fffae5;
+        }
+        #article-reply-area > .header h5{
+            color: #75715e;
+        }
+        #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
+            color: #75715e;
+        }
+        .fr-toolbar{
+        border-color: #d3ceb8; 
+        color: #d3ceb8;
+        background: #fff;
+        }
+        .pull-right{
+            background-color: #ff6a70;
+            border-color: #ff6a70;
+            border-radius: 10px;
+        }
+        /*글쓰기 라디오스*/
+        #article-list #article-list-menu>.btn.write{
+        border-radius: 10px;
+        }
+        /*윗글아랫글 색상*/
+        #article-neighbor-list{
+        color: #ff6a70;
+        }
+
+        #article-list #article-list-menu>.btn.best{
+            background: rgba(255,255,255,0.7);
+            border-radius: 10px;
+        }
+        .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+            background-color: #75715e;
+            border-color: #75715e;
+            border-radius: 2px;
+        }
+        .pagination>li>a, .pagination>li>span, .pagination>li>a, .pagination>li>span:hover{
+            color: #75715e;
+        }
+        #article-list #article-list-menu>.btn.write{
+            background-color: #ff6a70;
+            border-color: #ff6a70;
+            border-radius: 10px;
+        }
+        #article-list #article-list-menu>.btn.cog{
+        border-radius: 10px;
+        }
+        #article-list #article-list-menu>.btn.del{
+        border-radius: 10px;
+        }
+
+        footer,a{
+            color: #75715e;
+        }
+
+        /* 위로 */
+        #movetotop img {
+            display:none
+        }
+        #movetotop {
+            display: inline-block;
+            opacity:1;
+            background: url("https://dandegimon.github.io/yanggether/images/up.png");
+            width: 80px;  
+            height: 89px;
+            background-size: contain;
+        }
+
+        /* 드롭다운 메뉴 애니메이션 */
+        nav#nav>.nav-header {
+            background: #ccccff;
+            color:black;
+        }
+         nav#nav.hide{
+            transition: all 0.35s ease-in-out !important;
+         }
+         nav#nav {
+            background: #fff;
+            transition: all 0.35s ease-in-out !important;
+            transition: all 0.3s cubic-bezier(0.165, 1.44, 0.44, 1)
+            }
+
+             .dropdown > .dropdown-menu {
+                display: block !important;
+                transition: all 0.3s cubic-bezier(0.165, 1.44, 0.44, 1);
+                transform-origin: top;
+                transform: scale(0);
+             }
+
+             .dropdown.open > .dropdown-menu {
+                transform: unset;
+                }
+
+        /*애니메이션*/
+        @keyframes animationFrames{
+          0% {
+            opacity:1;
+          }
+          50% {
+            opacity:0;
+          }
+          100% {
+            opacity:1;
+          }
+        }
+        @-moz-keyframes animationFrames{
+          0% {
+            opacity:1;
+          }
+          50% {
+            opacity:0;
+          }
+          100% {
+            opacity:1;
+          }
+        }
+        @-webkit-keyframes animationFrames {
+          0% {
+            opacity:1;
+          }
+          50% {
+            opacity:0;
+          }
+          100% {
+            opacity:1;
+          }
+        }
+        @-o-keyframes animationFrames {
+          0% {
+            opacity:1;
+          }
+          50% {
+            opacity:0;
+          }
+          100% {
+            opacity:1;
+          }
+        }
+        @-ms-keyframes animationFrames {
+          0% {
+            opacity:1;
+          }
+          50% {
+            opacity:0;
+          }
+          100% {
+            opacity:1;
+          }
+        }
