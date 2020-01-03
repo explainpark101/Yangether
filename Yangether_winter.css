@@ -1,611 +1,621 @@
-/* 원본 CSS
-@import url("https://dandegimon.github.io/yanggether/yanggether_desktop.css");
-  
-@font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
-*/
+  /* 원본 CSS
+  @import url("https://dandegimon.github.io/yanggether/yanggether_desktop.css");
+    
+  @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+  */
 
-/* 적용용 CSS
-@import url("https://explainpark101.github.io/Yangether/Yangether_winter.css");
-@font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
-*/
+  /* 적용용 CSS
+  @import url("https://explainpark101.github.io/Yangether/Yangether_winter.css");
+  @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+  */
 
 
-/*내용 */
-@font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+  /*내용 */
+  @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-html, body, table, div, p {
-font-family: 'Dovemayo-Bold';}
+  html, body, table, div, p {
+  font-family: 'Dovemayo-Bold';}
 
 
-/*광고*/
+  /*광고*/
 
-header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
-header #header-bar #header-top-notice strong.notice-badge{display:none;}
+  header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
+  header #header-bar #header-top-notice strong.notice-badge{display:none;}
 
 
-html, body{
- background: linear-gradient(#CCCCFF,#9999FF);
- height: auto;
-}
+  html, body{
+   background: linear-gradient(#CCCCFF,#9999FF);
+   height: auto;
+  }
 
-body {
-  background: transparent;
-  height: auto;
-background-image: url('https://explainpark101.github.io/Yangether/snow1.png'),url('https://explainpark101.github.io/Yangether/snow2.png'),url('https://explainpark101.github.io/Yangether/snow3.png');
-    -webkit-animation: snow 10s linear infinite;
-    -moz-animation: snow 10s linear infinite;
-    -ms-animation: snow 10s linear infinite;
-    animation: snow 10s linear infinite;}
+  body {
+    background: transparent;
+    height: auto;
+  background-image: url('https://explainpark101.github.io/Yangether/snow1.png'),url('https://explainpark101.github.io/Yangether/snow2.png'),url('https://explainpark101.github.io/Yangether/snow3.png');
+      -webkit-animation: snow 10s linear infinite;
+      -moz-animation: snow 10s linear infinite;
+      -ms-animation: snow 10s linear infinite;
+      animation: snow 10s linear infinite;}
 
-header .row>div:nth-child(1)>a {
-  display: block;
-  height: 50px;
-  background: url(https://cdn.discordapp.com/attachments/569194281219129364/660489766130679828/logo_winter.png) no-repeat;
-  position: relative;
-  top: 10px;
+  header .row>div:nth-child(1)>a {
+    display: block;
+    height: 50px;
+    background: url(https://cdn.discordapp.com/attachments/569194281219129364/660489766130679828/logo_winter.png) no-repeat;
+    position: relative;
+    top: 10px;
 
 
-/* 양게더 로고 애니메이션 */
-  -webkit-animation: bounceInTop 4s;
+  /* 양게더 로고 애니메이션 */
+    -webkit-animation: bounceInTop 4s;
 
-animation: bounceInTop 4s;
+  animation: bounceInTop 4s;
 
 
 
--webkit-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 
-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 
 
 
--webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-timing-function:ease-in-out;
 
-animation-timing-function:ease-in-out;
+  animation-timing-function:ease-in-out;
 
-}
+  }
 
 
 
-@-webkit-keyframes bounceInTop {
+  @-webkit-keyframes bounceInTop {
 
-0% {
+  0% {
 
--webkit-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
 
-}
+  }
 
-25% {
+  25% {
 
--webkit-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
 
-}
+  }
 
-50% {
+  50% {
 
--webkit-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
 
-}
+  }
 
-75% {
+  75% {
 
--webkit-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
 
-}
+  }
 
-100% {
+  100% {
 
--webkit-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
 
-}
+  }
 
-}
+  }
 
 
 
-@keyframes bounceInTop {
-
-0% {
-
-transform: rotate(2deg);
-
-}
-
-25% {
-
-transform: rotate(-2deg);
-
-}
-
-50% {
-
-transform: rotate(2deg);
-
-}
-
-75% {
-
-transform: rotate(-2deg);
-
-}
-
-100% {
-
-transform: rotate(2deg);
-
-}
-
-}
-header .row>div:nth-child(1)>a img {
-display: none; /*기본 로고 숨김*/
-}
-
-/* 로고밑 NAV bar */
-header #header-bar>.row {
-    border: 3px solid #8080ff !important;
-  background-color: #8080ff;
-    border-radius: 20px;
-}
-
-/* 검색폼 보더 */
-header #right-search-form>input[type='text'] {
-  border: 2px solid #fff;
-  border-radius: 13px;
-}
-/* 헤더 검색 버튼 */
-header #right-search-form>#right-search-btn {
-  color: #a6a291;
-}
-/* 유저 프로필 이미지 원형화 */
-header #header-bar #header-menu-right #userDropdown img.profile-img {
-    border-radius: 50%;
-    border: 2px dashed #00ffff;
-}
-
-/* 알림 뱃지 색상 */
-header #header-bar #header-menu-right #userDropdown #notification-badge{
-  background: #00d0d0;
-  color:black;
-}
-
-/* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
-#main .menu-wrapper>.header {
-    background: #8080ff;
-    border: 3px solid #8080ff !important;
-    border-radius: 10px 10px 0 0;
-}
-
-/* 아래 빈 줄 삭제 */
-element.style {
-    display: none;
-}
-
-#main .menu-wrapper a:nth-last-child(1) {
-border-radius: 0px 0px 15px 15px;
-}
-#main .menu-wrapper{
-  border-bottom: none;
-  border-right: none;
-}
-#main .menu-wrapper .spacer{
-  height: 0em;
-}
-.fa-navicon:before,
-.fa-reorder:before{
-  color: #d3ceb8;
-}
-#main .menu-wrapper>a>em,
-#main .menu-wrapper>a>i.fa.fa-square{
-  color: #d3ceb8;
-}
-
-/* 메인 글 테두리 색상 */
-#main #main-content>div.frame{
-    border-radius: 10px;
-}
-/*프로필*/
-#board-info{
-  height: auto;
-}
-#board-info #board-info-profile-img{
-  width: 6.5em;
-  background:none;
-  border:2px dashed #d3ceb8;
-  border-radius:50%;
-  float: left !important;
-  position: relative;
-  top: 1px;
-  left: -5px;
-}
-#board-info h1{
-  padding-top: 18px;
-  padding-bottom: 4px;
-  border-bottom: 2px dashed #e2e2e2;
-}
-#board-info h1>a{
-  color:#75715e;
-}
-#board-info #viewers-area{
-  color: rgba(117,113,94,0.8);
-}
-#board-info #viewers-area .fa-user:before{
-    content: url('https://static-cdn.jtvnw.net/badges/v1/899a775f-91cf-4112-907b-b44bfb84725c/1');
-    font-size: 16px;
-  position: relative;
-  top: 5px;
-  cursor: text
-}
-#board-info #viewers-area #viewers:before {
-    content: "";
-    cursor: text;
-}
-#board-info #viewers-area #viewers:after {
-    content: "명 수감중!";
-    cursor: text;
-}
-
-/* 스트리머 이름 호버 색상 변경 */ 
-#board-info h1>a:hover,
-#board-info h1>a:focus {
-  color: var(--randomColor);
-  transition: 0.2s;
-}
-
-/* board-info 버튼 호버 이펙트 */
-#board-info>#board-info-bottom>:hover {
-    transform: scale(1.05);
-    color: black;
-    text-decoration: underline; 
-}
-
-/*즐찾,소개,채널,클립*/
-#board-info #board-info-bottom{
-  padding-top: 6px;
-}
-#board-info #board-info-bottom a{
-  color: #75715e;
-}
-/* 카테고리 색상 변화 */
-
-    #article-list #article-list-category {
-        background: transparent;
-        border: none;
-        margin-top: 2px;
-        margin-bottom: 2px;
-    }
-
-    #article-list #article-list-category>a {
-      background: transparent;
-      position: relative;
-      padding: 9px 15.7px; /* 카테고리 선택자 사이 여백 조정 */
-    }
-
-    #article-list #article-list-category>a::before {
-      top: 0;
-    }
-
-    #article-list #article-list-category>a::after {
-      bottom: 0;
-    }
-
-#article-list #article-list-category>a::before, #article-list #article-list-category>a::after {
-  height: 2px;
-  width: 100%;
-  background: currentColor;
-  content: "";
-  position: absolute;
-  left: 0px;
-  transform: scaleX(0);
-  transition: 0.3s;
-    }
-    #article-list #article-list-category>a:hover::before, #article-list #article-list-category>a:hover::after {
-        transform: scaleX(1);
-    }
-
-/*메인메뉴*/
-#article-list{
-  padding:0 1em 2em;
-}
-#article-list #article-list-category{
-  border-top: none;
-  background: #fff;
-  border: 2px dashed #f0ebd6;
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
-#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover,#article-list #article-list-category>a{
-  background: none;
-}
-.fa-home{
-  color: #d3ceb8;
-}
-#article-list #article-option-area>#article-option-area-toggle-btn{
-  position: absolute;
-  right: 14px;
-  top: 2px;
-  border-radius: 10px;
-  background: none;
-}
-
-/* 게시글 */
-  #article-list>.article-list-row{
-        background: transparent;
-        border: none;
-        margin-top: -2px;
-        margin-bottom: -2px;
-    } 
-
-    #article-list>.article-list-row{
+  @keyframes bounceInTop {
+
+  0% {
+
+  transform: rotate(2deg);
+
+  }
+
+  25% {
+
+  transform: rotate(-2deg);
+
+  }
+
+  50% {
+
+  transform: rotate(2deg);
+
+  }
+
+  75% {
+
+  transform: rotate(-2deg);
+
+  }
+
+  100% {
+
+  transform: rotate(2deg);
+
+  }
+
+  }
+  header .row>div:nth-child(1)>a img {
+  display: none; /*기본 로고 숨김*/
+  }
+
+  /* 로고밑 NAV bar */
+  header #header-bar>.row {
+      border: 3px solid #8080ff !important;
+    background-color: #8080ff;
+      border-radius: 20px;
+  }
+
+  /* 검색폼 보더 */
+  header #right-search-form>input[type='text'] {
+    border: 2px solid #fff;
+    border-radius: 13px;
+  }
+  /* 헤더 검색 버튼 */
+  header #right-search-form>#right-search-btn {
+    color: #a6a291;
+  }
+  /* 유저 프로필 이미지 원형화 */
+  header #header-bar #header-menu-right #userDropdown img.profile-img {
+      border-radius: 50%;
+      border: 2px dashed #00ffff;
+  }
+
+  /* 알림 뱃지 색상 */
+  header #header-bar #header-menu-right #userDropdown #notification-badge{
+    background: #00d0d0;
+    color:black;
+  }
+
+  /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
+  #main .menu-wrapper>.header {
+      background: #8080ff;
+      border: 3px solid #8080ff !important;
+      border-radius: 10px 10px 0 0;
+  }
+
+  /* 아래 빈 줄 삭제 */
+  element.style {
+      display: none;
+  }
+
+  #main .menu-wrapper a:nth-last-child(1) {
+  border-radius: 0px 0px 15px 15px;
+  }
+  #main .menu-wrapper{
+    border-bottom: none;
+    border-right: none;
+  }
+  #main .menu-wrapper .spacer{
+    height: 0em;
+  }
+  .fa-navicon:before,
+  .fa-reorder:before{
+    color: #d3ceb8;
+  }
+  #main .menu-wrapper>a>em,
+  #main .menu-wrapper>a>i.fa.fa-square{
+    color: #d3ceb8;
+  }
+
+  /* 메인 글 테두리 색상 */
+  #main #main-content>div.frame{
+      border-radius: 10px;
+  }
+  /*프로필*/
+  #board-info{
+    height: auto;
+  }
+  #board-info #board-info-profile-img{
+    width: 6.5em;
+    background:none;
+    border:2px dashed #d3ceb8;
+    border-radius:50%;
+    float: left !important;
+    position: relative;
+    top: 1px;
+    left: -5px;
+  }
+  #board-info h1{
+    padding-top: 18px;
+    padding-bottom: 4px;
+    border-bottom: 2px dashed #e2e2e2;
+  }
+  #board-info h1>a{
+    color:#75715e;
+  }
+  #board-info #viewers-area{
+    color: rgba(117,113,94,0.8);
+  }
+  #board-info #viewers-area .fa-user:before{
+      content: url('https://static-cdn.jtvnw.net/badges/v1/899a775f-91cf-4112-907b-b44bfb84725c/1');
+      font-size: 16px;
+    position: relative;
+    top: 5px;
+    cursor: text
+  }
+  #board-info #viewers-area #viewers:before {
+      content: "";
+      cursor: text;
+  }
+  #board-info #viewers-area #viewers:after {
+      content: "명 수감중!";
+      cursor: text;
+  }
+
+  /* 스트리머 이름 호버 색상 변경 */ 
+  #board-info h1>a:hover,
+  #board-info h1>a:focus {
+    color: var(--randomColor);
+    transition: 0.2s;
+  }
+
+  /* board-info 버튼 호버 이펙트 */
+  #board-info>#board-info-bottom>:hover {
+      transform: scale(1.05);
+      color: black;
+      text-decoration: underline; 
+  }
+
+  /*즐찾,소개,채널,클립*/
+  #board-info #board-info-bottom{
+    padding-top: 6px;
+  }
+  #board-info #board-info-bottom a{
+    color: #75715e;
+  }
+  /* 카테고리 색상 변화 */
+
+      #article-list #article-list-category {
+          background: transparent;
+          border: none;
+          margin-top: 2px;
+          margin-bottom: 2px;
+      }
+
+      #article-list #article-list-category>a {
         background: transparent;
         position: relative;
-       /*** padding: 9px 15.7px; ***/ /* 카테고리 선택자 사이 여백 조정 */
-    }
+        padding: 9px 15.7px; /* 카테고리 선택자 사이 여백 조정 */
+      }
 
+      #article-list #article-list-category>a::before {
+        top: 0;
+      }
 
-    #article-list>.article-list-row :after {
+      #article-list #article-list-category>a::after {
         bottom: 0;
-    } 
+      }
 
-  #article-list>.article-list-row:after {
-        height: 2px;
-        width: 100%;
-        background: #6fbaff;
-        content: "";
-        position: absolute;
-        left: 0px;
-        transform: scaleX(0);
-        transition: 0.3s;
-    }
+  #article-list #article-list-category>a::before, #article-list #article-list-category>a::after {
+    height: 2px;
+    width: 100%;
+    background: currentColor;
+    content: "";
+    position: absolute;
+    left: 0px;
+    transform: scaleX(0);
+    transition: 0.3s;
+      }
+      #article-list #article-list-category>a:hover::before, #article-list #article-list-category>a:hover::after {
+          transform: scaleX(1);
+      }
 
-
-#article-list>.article-list-row:hover::after {
-        transform: scaleX(1);
-    } 
-
-#article-list>.article-list-row>.item>a.list-title:visited /*읽은 글 색상 변화 */{
-    color: purple !important;
-}
-
-/*공지사항*/
-#article-list>.article-list-row.notice{
-  background-color: #e7f8ff;
-  border-radius: 10px;
-  margin-bottom: 2px;
-}
-#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time{
-border-bottom:none;
-}
-span.a-badge i.fa.fa-info-circle{
-  color: #d3ceb8;
-}
-/*인기글*/
-#article-list>.article-list-row.hot{
-  background-color: #e7f8ff;
-  border-radius: 10px;
-}
-span.a-badge i.fa.fa-star{
-  color: #ffa3a7;
-  animation: animationFrames ease-in-out 2s infinite;
-  -webkit-animation: animationFrames ease-in-out 2s infinite;
-  -moz-animation: animationFrames ease-in-out 2s infinite;
-  -o-animation: animationFrames ease-in-out 2s infinite;
-  -ms-animation: animationFrames ease-in-out 2s infinite;
-}
-.fa-heart:before {
-     content: url(https://dandegimon.github.io/yanggether/images/heart.gif);
-    position: relative;
-    top: -2px;
-    display: inline-block;
-}
-/*기본글*/
-#article-list>.article-list-row{
-  border: none;
-}
-#article-list>.article-list-row>.item>.list-title>.list-category{
-  border: none;
-}
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
-  color: #75715e;
-}
-/* 추천수 색깔 */
-#article-list>.article-list-row>.item>.list-header>span{
-  background-color: #4bcaff;
-  padding: 3px 5px 3px 5px;
-  border-radius: 50%;
-}
-#article-list>.article-list-row>.item>.list-title>small.comment-count{
-  color: #08b6ff;
-}
-
-/* 글 안*/
-#article-content-wrapper>.header{
-  border-top: #63b6ff;
-  background: #ddfffb;
-}
-#article-reply-area > .header h5{
-  color: #75715e;
-}
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
-  color: #75715e;
-}
-.fr-toolbar{
-border-color: #d3ceb8; 
-color: #d3ceb8;
-background: #fff;
-}
-.pull-right{
-  background-color: #15baff;
-  border-color: #15baff;
-  border-radius: 10px;
-}
-/*글쓰기 라디오스*/
-#article-list #article-list-menu>.btn.write{
-border-radius: 10px;
-}
-/*윗글아랫글 색상*/
-#article-neighbor-list{
-color: #08b6ff;
-}
-
-#article-list #article-list-menu>.btn.best{
-  border-radius: 10px;
-}
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
-  background-color: #75715e;
-  border-color: #75715e;
-  border-radius: 2px;
-}
-.pagination>li>a, .pagination>li>span, .pagination>li>a, .pagination>li>span:hover{
-  color: #75715e;
-}
-
-/* 글쓰기 버튼 색상 */
-#article-list #article-list-menu>.btn.write{
-  background-color: #15baff;
-  border-color: #15baff;
-  border-radius: 10px;
-}
-
-#article-list #article-list-menu>.btn.write:hover {
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74;
-}
-
-#article-list #article-list-menu>.btn.cog{
-border-radius: 10px;
-}
-
-#article-list #article-list-menu>.btn.del{
-border-radius: 10px;
-}
-
-/* 인기글 버튼 색상 */
-#article-list #article-list-menu>.btn.best:hover {
+  /*메인메뉴*/
+  #article-list{
+    padding:0 1em 2em;
+  }
+  #article-list #article-list-category{
+    border-top: none;
+    background: #fff;
+    border: 2px dashed #f0ebd6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover,#article-list #article-list-category>a{
+    background: none;
+  }
+  .fa-home{
+    color: #d3ceb8;
+  }
+  #article-list #article-option-area>#article-option-area-toggle-btn{
+    position: absolute;
+    right: 14px;
+    top: 2px;
     border-radius: 10px;
-    background-color: #efc839;
-    color:#fff; 
-    border-color: #efc839;
-}
+    background: none;
+  }
 
-/* footer */
-footer,a{
- color: #0e1a3f;
-}
-#article-list>.article-list-row {
-  border-right: none;
-}
-#article-list #article-list-menu {
-  box-sizing: border-box;
-  width: unset;
-  margin: 20px;
-}
-#article-list #boardSearchForm {
-  padding-bottom: 20px;
-  height: unset;
-}
+  /* 게시글 */
+    #article-list>.article-list-row{
+          background: transparent;
+          border: none;
+          margin-top: -2px;
+          margin-bottom: -2px;
+      } 
 
-/* 위로 */
-#movetotop img {
-    display:none
-}
-#movetotop {
-    display: inline-block;
-    opacity:1;
-    background: url("https://dandegimon.github.io/yanggether/images/up.png");
-    width: 150px;  
-    height: 167px;
-    background-size: contain;
-}
+      #article-list>.article-list-row{
+          background: transparent;
+          position: relative;
+         /*** padding: 9px 15.7px; ***/ /* 카테고리 선택자 사이 여백 조정 */
+      }
 
 
-/*마우스 포인터*/
-*{
-cursor: url(https://dandegimon.github.io/yanggether/images/mouse.png) 0 0, auto !important;
-}
-#aw0{
-cursor: url(https://dandegimon.github.io/yanggether/images/mouse.png) 0 0, auto !important;
+      #article-list>.article-list-row :after {
+          bottom: 0;
+      } 
+
+    #article-list>.article-list-row:after {
+          height: 2px;
+          width: 100%;
+          background: #6fbaff;
+          content: "";
+          position: absolute;
+          left: 0px;
+          transform: scaleX(0);
+          transition: 0.3s;
+      }
+
+  #article-list>.article-list-row:hover::after {
+          transform: scaleX(1);
+      } 
+
+/* 읽은 글 색상 변경 */
+#article-list>.article-list-row>.item>.list-title>a:visited {
+  color:grey !important;
 }
 
-/* 모든 항목 focus시 아웃라인 제거 */
-*:focus { outline: none !important; }
-
-
-/*애니메이션*/
-@keyframes animationFrames{
-  0% {
-    opacity:1;
+  /*공지사항*/
+  #article-list>.article-list-row.notice{
+    background-color: #e7f8ff;
+    border-radius: 10px;
+    margin-bottom: 2px;
   }
-  50% {
-    opacity:0;
+  #article-list>.article-list-row.notice:hover{
+    background-color: #6fbaff;
+    transition: 0.3s ease-in-out;
   }
-  100% {
-    opacity:1;
-  }
-}
-@-moz-keyframes animationFrames{
-  0% {
-    opacity:1;
-  }
-  50% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-@-webkit-keyframes animationFrames {
-  0% {
-    opacity:1;
-  }
-  50% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-@-o-keyframes animationFrames {
-  0% {
-    opacity:1;
-  }
-  50% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-@-ms-keyframes animationFrames {
-  0% {
-    opacity:1;
-  }
-  50% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
-
-
-/* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
-@keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
   
-@-moz-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-  
-@-webkit-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 50% {}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-  
-@-ms-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
+  #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time{
+  border-bottom:none;
+  }
+  span.a-badge i.fa.fa-info-circle{
+    color: #d3ceb8;
+  }
+  /*인기글*/
+  #article-list>.article-list-row.hot{
+    background-color: #e7f8ff;
+    border-radius: 10px;
+  }
+#article-list>.article-list-row.hot:hover{
+background-color: #6fbaff;
+    transition: 0.3s ease-in-out;
+  }
+
+  span.a-badge i.fa.fa-star{
+    color: #ffa3a7;
+    animation: animationFrames ease-in-out 2s infinite;
+    -webkit-animation: animationFrames ease-in-out 2s infinite;
+    -moz-animation: animationFrames ease-in-out 2s infinite;
+    -o-animation: animationFrames ease-in-out 2s infinite;
+    -ms-animation: animationFrames ease-in-out 2s infinite;
+  }
+  .fa-heart:before {
+       content: url(https://dandegimon.github.io/yanggether/images/heart.gif);
+      position: relative;
+      top: -2px;
+      display: inline-block;
+  }
+  /*기본글*/
+  #article-list>.article-list-row{
+    border: none;
+  }
+  #article-list>.article-list-row>.item>.list-title>.list-category{
+    border: none;
+  }
+  #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
+    color: #75715e;
+  }
+  /* 추천수 색깔 */
+  #article-list>.article-list-row>.item>.list-header>span{
+    background-color: #4bcaff;
+    padding: 3px 5px 3px 5px;
+    border-radius: 50%;
+  }
+  #article-list>.article-list-row>.item>.list-title>small.comment-count{
+    color: #08b6ff;
+  }
+
+  /* 글 안*/
+  #article-content-wrapper>.header{
+    border-top: #63b6ff;
+    background: #ddfffb;
+  }
+  #article-reply-area > .header h5{
+    color: #75715e;
+  }
+  #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
+    color: #75715e;
+  }
+  .fr-toolbar{
+  border-color: #d3ceb8; 
+  color: #d3ceb8;
+  background: #fff;
+  }
+  .pull-right{
+    background-color: #15baff;
+    border-color: #15baff;
+    border-radius: 10px;
+  }
+  /*글쓰기 라디오스*/
+  #article-list #article-list-menu>.btn.write{
+  border-radius: 10px;
+  }
+  /*윗글아랫글 색상*/
+  #article-neighbor-list{
+  color: #08b6ff;
+  }
+
+  #article-list #article-list-menu>.btn.best{
+    border-radius: 10px;
+  }
+  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #75715e;
+    border-color: #75715e;
+    border-radius: 2px;
+  }
+  .pagination>li>a, .pagination>li>span, .pagination>li>a, .pagination>li>span:hover{
+    color: #75715e;
+  }
+
+  /* 글쓰기 버튼 색상 */
+  #article-list #article-list-menu>.btn.write{
+    background-color: #15baff;
+    border-color: #15baff;
+    border-radius: 10px;
+  }
+
+  #article-list #article-list-menu>.btn.write:hover {
+      color: #fff;
+      background-color: #286090;
+      border-color: #204d74;
+  }
+
+  #article-list #article-list-menu>.btn.cog{
+  border-radius: 10px;
+  }
+
+  #article-list #article-list-menu>.btn.del{
+  border-radius: 10px;
+  }
+
+  /* 인기글 버튼 색상 */
+  #article-list #article-list-menu>.btn.best:hover {
+      border-radius: 10px;
+      background-color: #efc839;
+      color:#fff; 
+      border-color: #efc839;
+  }
+
+  /* footer */
+  footer,a{
+   color: #0e1a3f;
+  }
+  #article-list>.article-list-row {
+    border-right: none;
+  }
+  #article-list #article-list-menu {
+    box-sizing: border-box;
+    width: unset;
+    margin: 20px;
+  }
+  #article-list #boardSearchForm {
+    padding-bottom: 20px;
+    height: unset;
+  }
+
+  /* 위로 */
+  #movetotop img {
+      display:none
+  }
+  #movetotop {
+      display: inline-block;
+      opacity:1;
+      background: url("https://dandegimon.github.io/yanggether/images/up.png");
+      width: 150px;  
+      height: 167px;
+      background-size: contain;
+  }
+
+
+  /*마우스 포인터*/
+  *{
+  cursor: url(https://dandegimon.github.io/yanggether/images/mouse.png) 0 0, auto !important;
+  }
+  #aw0{
+  cursor: url(https://dandegimon.github.io/yanggether/images/mouse.png) 0 0, auto !important;
+  }
+
+  /* 모든 항목 focus시 아웃라인 제거 */
+  *:focus { outline: none !important; }
+
+
+  /*애니메이션*/
+  @keyframes animationFrames{
+    0% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-moz-keyframes animationFrames{
+    0% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-webkit-keyframes animationFrames {
+    0% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-o-keyframes animationFrames {
+    0% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-ms-keyframes animationFrames {
+    0% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+
+  /* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
+  @keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+    
+  @-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+    
+  @-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   50% {}
+   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+    
+  @-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
