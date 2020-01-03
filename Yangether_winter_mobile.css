@@ -183,11 +183,11 @@
         }
         /* 글 안*/
         #article-content-wrapper>.header{
-            border-top: #ff6a70;
-            background: #fffae5;
+            border-top: #9090df /*#ff6a70;*/;
+            background: #ccccff /*#fffae5;*/;
         }
         #article-reply-area > .header h5{
-            color: #75715e;
+            color: /*#75715e;*/ #9090dd;
         }
         #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged{
             color: #75715e;
