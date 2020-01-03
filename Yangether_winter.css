@@ -382,6 +382,7 @@ span.a-badge i.fa.fa-info-circle{
   border-radius: 10px;
 }
 span.a-badge i.fa.fa-star{
+  display : inline-block !important;
   color: #ffa3a7;
   animation: animationFrames ease-in-out 2s infinite;
   -webkit-animation: animationFrames ease-in-out 2s infinite;
