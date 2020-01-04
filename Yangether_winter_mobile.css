@@ -7,6 +7,10 @@
             background: linear-gradient(#CCCCFF,#9999FF);
             height: auto;
         }
+
+#article-list-menu {
+    background: rgba(255,255,255,0) !important;
+}
         header{
             background: #ccccff;
             border-bottom: 4px solid #bbbbee;
@@ -171,7 +175,7 @@
             color: white;
         }
         /*밑바탕*/
-        .pagination-area, {
+        .pagination-area {
             background-color: transparent !important;
         }
         #article-list-menu{
