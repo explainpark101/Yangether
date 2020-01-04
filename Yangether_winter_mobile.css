@@ -7,10 +7,6 @@
             background: linear-gradient(#CCCCFF,#9999FF);
             height: auto;
         }
-
-#article-list-menu {
-    background: rgba(255,255,255,0) !important;
-}
         header{
             background: #ccccff;
             border-bottom: 4px solid #bbbbee;
@@ -175,7 +171,7 @@
             color: white;
         }
         /*밑바탕*/
-        .pagination-area {
+        .pagination-area, {
             background-color: transparent !important;
         }
         #article-list-menu{
@@ -202,14 +198,20 @@
         background: #fff;
         }
         .pull-right{
-            background-color: royalblue;
-            border-color: royalblue;
+            background-color: cornflowerblue;
+        border-color: steelblue;
+        color:white;
             border-radius: 10px;
         }
         /*글쓰기 라디오스*/
         #article-list #article-list-menu>.btn.write{
         border-radius: 10px;
+        background-color: cornflowerblue;
+        border-color: steelblue;
+        color:white;
+        border-radius: 10px;
         }
+
         /*윗글아랫글 색상*/
         #article-neighbor-list{
         color: mediumslateblue;
@@ -228,8 +230,9 @@
             color: #75715e;
         }
         #article-list #article-list-menu>.btn.write{
-            background-color: #ff6a70;
-            border-color: #ff6a70;
+        background-color: cornflowerblue;
+        border-color: steelblue;
+        color:white;
             border-radius: 10px;
         }
         #article-list #article-list-menu>.btn.cog{
