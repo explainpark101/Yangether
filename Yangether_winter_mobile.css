@@ -260,6 +260,18 @@
         }
 
         /* 드롭다운 메뉴 애니메이션 */
+
+        nav#nav > #nav-upper #userDropdown #notification-badge {
+    border-radius: 100px;
+    padding: 3px 6px;
+    background: cyan;
+}
+nav#nav > #nav-upper #userDropdown img.profile-img {
+    width: 24px;
+    height: 24px;
+    border-radius:50%
+    border:2px dashed cyan;
+}
         nav#nav>.nav-header {
             background: #ccccff;
             color:black;
