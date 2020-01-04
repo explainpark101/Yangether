@@ -141,7 +141,7 @@
             border: none;
         }
         #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
-            color: #1E90FF;
+            color: black;
         }
         #article-list>.article-list-row>.item>.list-header>span{
             background-color: cyan;
@@ -175,7 +175,7 @@
             background-color: transparent !important;
         }
         #article-list-menu{
-                background: rgba(255,250,229,0.4);
+                background: transparent;
                 }
 
         footer{
@@ -277,6 +277,16 @@
                 transform: unset;
                 }
 
+/* 기본 틀 */
+.pagination-area {
+    padding: 16px 0 8px;
+    background: transparent !important;
+    text-align: center;
+    width: 100%;
+}
+#article-list-menu {
+    background: transparent !important;
+}
         /*애니메이션*/
         @keyframes animationFrames{
           0% {
