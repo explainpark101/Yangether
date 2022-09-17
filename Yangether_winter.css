@@ -600,7 +600,32 @@ background-color: #6fbaff;
     }
   }
 
-
+/** 바이바이 양게더 **/
+/* 구독자뱃지 수정 */
+img[src="https://static-cdn.jtvnw.net/badges/v1/566ab19a-22db-4d71-aa6e-765602e1c969/1"]
+/*기본수갑*/
+{
+    content: url(https://static-cdn.jtvnw.net/badges/v1/5ec9c81f-5726-4717-b22e-0805e3847e8e/1?raw=true);
+    width: 18px;
+}
+img[src="https://static-cdn.jtvnw.net/badges/v1/282fb021-2fb7-40f2-8874-ae2f0e38a409/1"] 
+/*쇠고랑*/
+{
+    content: url(https://static-cdn.jtvnw.net/badges/v1/5ec9c81f-5726-4717-b22e-0805e3847e8e/1?raw=true);
+    width: 18px;
+}
+img[src="https://static-cdn.jtvnw.net/badges/v1/47ea6bb9-fbc1-4ad2-93aa-936990d8c735/1"] 
+/*금고랑*/
+{
+    content: url(https://static-cdn.jtvnw.net/badges/v1/5ec9c81f-5726-4717-b22e-0805e3847e8e/1?raw=true);
+    width: 18px;
+}
+img[src="https://static-cdn.jtvnw.net/badges/v1/9d216d93-85b9-47ef-bcdb-4bc8041d424f/1"] 
+/*다이아고랑*/
+{
+    content: url(https://static-cdn.jtvnw.net/badges/v1/5ec9c81f-5726-4717-b22e-0805e3847e8e/1?raw=true);
+    width: 18px;
+}
   /* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
   @keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
